@@ -3531,15 +3531,9 @@
 <XPD:REF name="Views[2]">nou2t/TaHUC2Y2bQ8bfZRgAA</XPD:REF>
 <XPD:REF name="Views[3]">mqwjWi6o1ki7dZdwiPem0wAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="gSg6THF2IEqS1+xOZDIoZwAA">
-<XPD:ATTR name="Name" type="string">식물도감 등록 요청</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="FWd2d2TA3kuTu2HdhkTTKgAA">
+<XPD:ATTR name="Name" type="string">식물도감 등록 요청 : dictionary</XPD:ATTR>
 <XPD:REF name="Owner">PTfV3jjCEE++NTW08aWsQwAA</XPD:REF>
-<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="E2mXJedF+0aqXX7XhLGQOQAA">
-<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">gSg6THF2IEqS1+xOZDIoZwAA</XPD:REF>
-</XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">4</XPD:ATTR>
 <XPD:REF name="Associations[0]">8U1TyJHbcUi19uEODjnu8QAA</XPD:REF>
@@ -3559,7 +3553,7 @@
 <XPD:REF name="Views[3]">KHd0ypeK6U6k/6PRWNJ0AgAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="shEP+CqpT0itMxYUVuDg2gAA">
-<XPD:ATTR name="Name" type="string">식물도감 재등록</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">식물도감 재등록 : dictionary</XPD:ATTR>
 <XPD:REF name="Owner">PZjEeeNGN0e85EuoUblsNwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">5</XPD:ATTR>
@@ -3574,11 +3568,15 @@
 <XPD:ATTR name="StereotypeProfile" type="string">UMLStandard</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">boundary</XPD:ATTR>
 <XPD:REF name="Namespace">RXfWbt6dxEunyDoA26UTRQAA</XPD:REF>
-<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:ATTR name="#Views" type="integer">8</XPD:ATTR>
 <XPD:REF name="Views[0]">j67r8Ro/I0ySSa4aTnM9OwAA</XPD:REF>
 <XPD:REF name="Views[1]">798lv3NPb0KSbNK99vvzBwAA</XPD:REF>
 <XPD:REF name="Views[2]">dsziooPkHkCFKTXemymMHwAA</XPD:REF>
 <XPD:REF name="Views[3]">/7KDmkleHUSa1atwNErC6gAA</XPD:REF>
+<XPD:REF name="Views[4]">+LSF3RbNaUSlV3iNKVLpgwAA</XPD:REF>
+<XPD:REF name="Views[5]">4MgSyOunQ0qIjwZ3FDt+aAAA</XPD:REF>
+<XPD:REF name="Views[6]">csDhVBsjukKbGDh2o44jKAAA</XPD:REF>
+<XPD:REF name="Views[7]">psdoed9twE+dKN6lRJZvvQAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="Y3fMebtXsEaRAQBxHOmlswAA">
 <XPD:ATTR name="Name" type="string">식물도감 수정</XPD:ATTR>
@@ -4373,8 +4371,8 @@
 <XPD:REF name="Participant">4ErxGFRwbUWHQD60ByxsxQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">+cQ70gMBZEuAAQCqXfng8QAA</XPD:REF>
-<XPD:REF name="Views[1]">y3iuc1RfTEa9F9/+nXVCwwAA</XPD:REF>
-<XPD:REF name="Views[2]">BhqATzlr70K++z7xiG44rwAA</XPD:REF>
+<XPD:REF name="Views[1]">BhqATzlr70K++z7xiG44rwAA</XPD:REF>
+<XPD:REF name="Views[2]">y3iuc1RfTEa9F9/+nXVCwwAA</XPD:REF>
 <XPD:REF name="Views[3]">fJfq2uacg0Cu/j6BoSh+kAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Connections[1]" type="UMLAssociationEnd" guid="WPf0Gswq+Em5cGZVRNH+vQAA">
@@ -4382,8 +4380,8 @@
 <XPD:REF name="Participant">26I38Nb+1kCKVsGlRBXaVQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">3TZc2LFO0UG6H+/CF0lPAwAA</XPD:REF>
-<XPD:REF name="Views[1]">dJXTbu0w9UGakosWp2pjJAAA</XPD:REF>
-<XPD:REF name="Views[2]">4UO1pTBthkG3b6msqR0JWAAA</XPD:REF>
+<XPD:REF name="Views[1]">4UO1pTBthkG3b6msqR0JWAAA</XPD:REF>
+<XPD:REF name="Views[2]">dJXTbu0w9UGakosWp2pjJAAA</XPD:REF>
 <XPD:REF name="Views[3]">/t9dSRx920qlFQ2e4Pmi5wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -8129,6 +8127,38 @@
 <XPD:REF name="DiagramOwner">wPym5ms2xkubl00zqip8FgAA</XPD:REF>
 <XPD:OBJ name="DiagramView" type="UMLClassDiagramView" guid="Uim4TOumJUGTN65RGBvWSwAA">
 <XPD:REF name="Diagram">REzf30D8PEmzIABYMjGgywAA</XPD:REF>
+<XPD:ATTR name="#OwnedViews" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="+LSF3RbNaUSlV3iNKVLpgwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">428</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">188</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">122</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">95</XPD:ATTR>
+<XPD:REF name="Model">rDFGm8QA80a/BJ3TI8gW1wAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="f0smlGJark+dcf12MqeeYQAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="BD09NZvnpEiAi8FKtPA88QAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">식물도감 화면</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="Lma4y6PycUqmogEBLJjDpQAA">
+<XPD:ATTR name="Text" type="string">&lt;&lt;boundary&gt;&gt;</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="FDsVSRSM5ECqUeR5kzkyCwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="4MgSyOunQ0qIjwZ3FDt+aAAA">
+<XPD:REF name="Model">rDFGm8QA80a/BJ3TI8gW1wAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="csDhVBsjukKbGDh2o44jKAAA">
+<XPD:REF name="Model">rDFGm8QA80a/BJ3TI8gW1wAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="TemplateParameterCompartment" type="UMLTemplateParameterCompartmentView" guid="psdoed9twE+dKN6lRJZvvQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">rDFGm8QA80a/BJ3TI8gW1wAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
