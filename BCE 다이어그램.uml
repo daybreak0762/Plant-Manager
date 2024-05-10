@@ -23,7 +23,7 @@
 <XPD:REF name="DiagramOwner">RXfWbt6dxEunyDoA26UTRQAA</XPD:REF>
 <XPD:OBJ name="DiagramView" type="UMLClassDiagramView" guid="9v+vkOhEkUeLPxVDmSyNPAAA">
 <XPD:REF name="Diagram">8UwFjlh3RkuklR8U7nyJLQAA</XPD:REF>
-<XPD:ATTR name="#OwnedViews" type="integer">18</XPD:ATTR>
+<XPD:ATTR name="#OwnedViews" type="integer">19</XPD:ATTR>
 <XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="yLwyIEvX/E2k4y/1Spq7ewAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
@@ -768,6 +768,40 @@
 <XPD:ATTR name="Width" type="integer">50</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">8</XPD:ATTR>
 <XPD:REF name="Model">R3lrnEg6xUa4aqKVTKD+TgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[18]" type="UMLClassView" guid="xVLMs0ENgUe+orVGKfXN9QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">928</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">268</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">101</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">63</XPD:ATTR>
+<XPD:ATTR name="StereotypeDisplay" type="UMLStereotypeDisplayKind">sdkIcon</XPD:ATTR>
+<XPD:REF name="Model">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="fBsJxCgpmk+KT/1WOl2r/gAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="TRHNGR1MTES9DvzTBq15gAAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">QnA 리스트</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="XCrInts7a0+uCu7kT/ts7wAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="UI8VHhU2vUi9aIUIoxWxNQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="bifLjY1sUEaLPC3DtOmMEAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="BzjjDLDIbEecLwoaAscWMQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="TemplateParameterCompartment" type="UMLTemplateParameterCompartmentView" guid="ZtGnwn9yN0SchkV3LBHFewAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -3519,7 +3553,7 @@
 <XPD:REF name="Views[3]">LUQRLzAwjkybw24MzDAtMQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#OwnedElements" type="integer">46</XPD:ATTR>
+<XPD:ATTR name="#OwnedElements" type="integer">47</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="PTfV3jjCEE++NTW08aWsQwAA">
 <XPD:ATTR name="Name" type="string">식물도감 등록 화면</XPD:ATTR>
 <XPD:ATTR name="StereotypeProfile" type="string">UMLStandard</XPD:ATTR>
@@ -3943,18 +3977,26 @@
 <XPD:REF name="Views[3]">sL9tChQbiUuXafh2J+gOoQAA</XPD:REF>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">Sov38psj0E+m8ZEeNSD7MwAA</XPD:REF>
-<XPD:ATTR name="#Attributes" type="integer">3</XPD:ATTR>
+<XPD:ATTR name="#Attributes" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="oOXCarRFmUGtIvRmR0m4/gAA">
 <XPD:ATTR name="Name" type="string">책갈피 번호</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="Owner">qnGNjMgcSUqoxwi5L3rntwAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="ZUd9hi3dxEyJ6/AhE7JyMAAA">
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="56UQqcbCQ0Wn3NAUA+NUkQAA">
+<XPD:ATTR name="Name" type="string">아이디 : varchar</XPD:ATTR>
+<XPD:REF name="Owner">qnGNjMgcSUqoxwi5L3rntwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="/4RyYTSYn0y0xQnxFD/cNwAA">
+<XPD:ATTR name="Name" type="string">식물종 번호 : int</XPD:ATTR>
+<XPD:REF name="Owner">qnGNjMgcSUqoxwi5L3rntwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="ZUd9hi3dxEyJ6/AhE7JyMAAA">
 <XPD:ATTR name="Name" type="string">식물도감 번호</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="Owner">qnGNjMgcSUqoxwi5L3rntwAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="mawK7DbzSkWOWhki1y8Y/gAA">
+<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="mawK7DbzSkWOWhki1y8Y/gAA">
 <XPD:ATTR name="Name" type="string">최근 읽는 시간</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">datetime</XPD:ATTR>
 <XPD:REF name="Owner">qnGNjMgcSUqoxwi5L3rntwAA</XPD:REF>
@@ -4382,6 +4424,46 @@
 <XPD:REF name="Views[1]">4UO1pTBthkG3b6msqR0JWAAA</XPD:REF>
 <XPD:REF name="Views[2]">dJXTbu0w9UGakosWp2pjJAAA</XPD:REF>
 <XPD:REF name="Views[3]">/t9dSRx920qlFQ2e4Pmi5wAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[46]" type="UMLClass" guid="Hi9dLHIFL02ztuQUnJmpUQAA">
+<XPD:ATTR name="Name" type="string">QnA 리스트</XPD:ATTR>
+<XPD:ATTR name="StereotypeProfile" type="string">UMLStandard</XPD:ATTR>
+<XPD:ATTR name="StereotypeName" type="string">entity</XPD:ATTR>
+<XPD:REF name="Namespace">RXfWbt6dxEunyDoA26UTRQAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">8</XPD:ATTR>
+<XPD:REF name="Views[0]">xVLMs0ENgUe+orVGKfXN9QAA</XPD:REF>
+<XPD:REF name="Views[1]">bifLjY1sUEaLPC3DtOmMEAAA</XPD:REF>
+<XPD:REF name="Views[2]">BzjjDLDIbEecLwoaAscWMQAA</XPD:REF>
+<XPD:REF name="Views[3]">ZtGnwn9yN0SchkV3LBHFewAA</XPD:REF>
+<XPD:REF name="Views[4]">mnDzKtPUFkCVoZRJnIyO0QAA</XPD:REF>
+<XPD:REF name="Views[5]">/4kOY/1nlUKgObjrC1iNFgAA</XPD:REF>
+<XPD:REF name="Views[6]">59bxQ7HAAUmRiywA06s6IwAA</XPD:REF>
+<XPD:REF name="Views[7]">HgVumpFE+UabVkeoN0ZbZQAA</XPD:REF>
+<XPD:ATTR name="#Attributes" type="integer">6</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="NAbgQFeELkS/2iMSGJyTDAAA">
+<XPD:ATTR name="Name" type="string">요청번호 : INT</XPD:ATTR>
+<XPD:REF name="Owner">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="EA9uDBovKUGie61KUPPZlwAA">
+<XPD:ATTR name="Name" type="string">아이디 : VARCHAR</XPD:ATTR>
+<XPD:REF name="Owner">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="lvdbseaiCkOsVAoB0r0hxQAA">
+<XPD:ATTR name="Name" type="string">요청 제목 : VARCHAR</XPD:ATTR>
+<XPD:REF name="Owner">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="R2qANVtjbEa9T1S4+e5TYgAA">
+<XPD:ATTR name="Name" type="string">요청 카테고리 : VARCHAR</XPD:ATTR>
+<XPD:REF name="Owner">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="sHXgtUUAA0+JVWBEcoMf2QAA">
+<XPD:ATTR name="Name" type="string">요청 내용 : VARCHAR</XPD:ATTR>
+<XPD:REF name="Owner">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="8U9FVYNrwkW8pmlyDMf2IAAA">
+<XPD:ATTR name="Name" type="string">처리 여부 : ENUM</XPD:ATTR>
+<XPD:REF name="Owner">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#OwnedCollaborations" type="integer">1</XPD:ATTR>
@@ -8111,6 +8193,38 @@
 <XPD:REF name="DiagramOwner">EclWER2BB0ygbH68/hDDqgAA</XPD:REF>
 <XPD:OBJ name="DiagramView" type="UMLClassDiagramView" guid="WVYDrNMR5UOAYycngbLzRQAA">
 <XPD:REF name="Diagram">HLqiPMAzG0O7dYLBeae37QAA</XPD:REF>
+<XPD:ATTR name="#OwnedViews" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="mnDzKtPUFkCVoZRJnIyO0QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">692</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">252</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">145</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">147</XPD:ATTR>
+<XPD:REF name="Model">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="tTEeRVyN2UCTz5HmCrH1+wAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="MK95o5VVvEG6u70/N3pb8wAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">QnA 리스트</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="wfckZfEc6kKIydDh75pCEAAA">
+<XPD:ATTR name="Text" type="string">&lt;&lt;entity&gt;&gt;</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="AqxVQTToJUGjvbR0ko8c5gAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="/4kOY/1nlUKgObjrC1iNFgAA">
+<XPD:REF name="Model">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="59bxQ7HAAUmRiywA06s6IwAA">
+<XPD:REF name="Model">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="TemplateParameterCompartment" type="UMLTemplateParameterCompartmentView" guid="HgVumpFE+UabVkeoN0ZbZQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">Hi9dLHIFL02ztuQUnJmpUQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
